@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@200&family=Outfit:wght@100..900&family=Roboto:wght@300;400;500;700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Outfit;
+  }
+  
+  .c-item{
+    height:400px;
+    
+}
+.c-img{
+    height:100%;
+    object-fit:cover;
+    filter:brightness(0.6);
+}
+.overview{
+    height:180px;
+    background: #d3dae1;
+}
+ 
+  /*Footer content*/
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .address {
+    flex-basis: 40%;
+  }
+  
+  .address p {
+    margin: 0;
+  }
+  
+  .social-icons {
+    flex-basis: 40%;
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    margin-left: 20px;
+  }
+  
+  .map {
+    flex-basis: 100%;
+    margin-top: 20px;
+    
+  }
+  .map iframe{
+    width:300px;
+    border-radius: 20px;
+    height: 100px;
+  }
